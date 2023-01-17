@@ -1,3 +1,4 @@
+#THIS SCRIPT GETS ALL THE BLOG LINKS AND SAVES THEM TO links.txt
 from selenium import webdriver
 from selenium.webdriver.edge.service import Service
 from selenium.webdriver.edge.options import Options
