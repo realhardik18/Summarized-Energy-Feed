@@ -1,0 +1,38 @@
+Some actions, like using electricity from a fossil fuel-fired power plant, lead to greenhouse gases entering the atmosphere. These greenhouse gas “emissions” are the root cause of climate change. Other actions help reduce emissions, like building a solar farm that lets us run that fossil fuel-fired power plant less—or even, like planting trees, take some greenhouse gases back out of the atmosphere.
+ 
+A person or organization with net zero emissions is one that takes both kinds of actions, such that their positive and negative impacts on the climate are considered to effectively balance out. This is an important strategy, because it can be very hard, expensive, or even impossible to emit no greenhouse gases at all. By lowering one’s own emissions as much as possible, and then “canceling out” any remaining (or “residual”) emissions, an organization can reach net zero emissions and stop contributing to the buildup of greenhouse gases and their effect on the climate.
+Net zero organizations
+A growing number of organizations, from companies and universities to cities and countries, are pledging to reach net zero emissions.
+ 
+Ideally, they would do this by eliminating all their emissions. Most organizations, however, will find they can only reduce their own emissions so far. (For instance, they may need to buy electricity from a local electric grid that still runs partly on fossil fuels.) To reach net zero, these organizations will need to either take actions that remove some greenhouse gases from the atmosphere, or help someone else reduce their emissions—like by buying equipment to capture methane at their local landfill. These actions could be considered to have “negative emissions.”
+ 
+Organizations don’t always take on these negative emissions projects themselves. Many choose to buy carbon offsets, paying someone else with more expertise to trap methane, plant trees, or otherwise keep greenhouse gases out of the atmosphere. Carbon offset projects can be located anywhere in the world, giving organizations more options to invest in larger or more economically efficient projects than they could carry out alone.
+  Scope 1, 2, and 3 emissions
+To achieve net zero emissions, organizations must first know how much they emit. This can be more complicated than it may appear.
+In counting up its emissions, an organization should always include both “scope 1” (or direct) emissions, and “scope 2” emissions.1
+Scope 1: Greenhouse gases the organization itself puts into the atmosphere—for instance, by burning gas to heat its buildings.
+  Scope 2: Greenhouse gases produced by the utilities the organization buys—for instance, when buying electricity from a fossil fuel-fired power plant.
+Organizations may also choose to include some or all of their “scope 3” emissions.
+Scope 3: Greenhouse gases produced by other goods and services the organization uses—for instance, by the cars employees use to commute, by flights for business travel, and by disposal of the organization’s waste.
+Scope 3 emissions are not always included in plans to reach net zero emissions, however, in part because they can give rise to double counting. When an employee drives a gas-powered car to work, are those emissions the responsibility of the employer, the employee, the car manufacturer, or the oil company who sells the gasoline?
+A net zero planet
+There is an important, practical reason for the focus on net zero. As long as humans keep adding greenhouse gases to the atmosphere, climate change will continue to get worse. Only when the whole planet reaches net zero emissions will the climate begin to stabilize.
+ 
+For this reason, almost every country on Earth signed the Paris Agreement in 2015, pledging to reach net zero emissions in time to hold global warming to no more than 2° C and strive for no more than 1.5° C. According to the Intergovernmental Panel on Climate Change, meeting the stronger 1.5° C goal would require the whole world to reach net zero emissions by 2050.2 Many organizations make net zero pledges in line with these global targets, wanting to “do their part” to achieve a net zero world.
+ 
+Global net zero emissions, however, are especially hard to achieve. Once humans reduce worldwide emissions as much as possible, the only way to “cancel out” any residual emissions will be to actively take greenhouse gases back out of the atmosphere.
+
+Still, it is not impossible to have a net zero planet: in fact, it must be the goal of climate action if we are to finally stabilize climate change. It is even possible to go further, and take more greenhouse gases from the atmosphere than we emit. With worldwide “net negative” emissions, it may be possible to reverse some (but not all) of the catastrophic effects of climate change.
+  Related terms
+Carbon neutrality and net zero carbon emissions are similar terms to net zero emissions, but are narrower in scope: they only address the addition and removal of carbon dioxide (CO2) from the atmosphere. CO2 is the most common and impactful greenhouse gas released by human activities, but not the only one: true net zero emissions must also consider the other greenhouse gases including methane, nitrous oxide, and fluorinated gases.
+Climate neutrality is an even broader term that considers everything humans do that might influence the climate. For instance, the Earth’s snow cover helps reflect light back into space, cooling the planet. Human activities that reduce snow cover would not be “climate neutral,” even if they emit no greenhouse gases at all.
+Net negative emissions is a goal that goes even further than net zero: removing more greenhouse gases from the atmosphere than one emits. If the entire world were to achieve net negative emissions, it could potentially reverse some of the climate change we have already caused.
+  Click here to see data from the infographic above in a table.
+
+
+
+
+
+
+
+  Published December 16, 2022.

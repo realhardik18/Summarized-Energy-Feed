@@ -15,16 +15,35 @@ driver = webdriver.Chrome(service=Service(EdgeChromiumDriverManager().install())
 with open('scraper\crawler\links.txt','r') as file:
     articels=file.readlines()
 
-for articel in articels[1:3]:
-    driver.get(articel)
-    time.sleep(5)
-    content=driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div[4]/main/div/div/div/div/article/div/div[3]/div[1]/div[1]')
-    filename=f"{articel[len(articel)-articel[::-1].index('/'):]}.txt"
-    with open(filename,'w+') as file:
-        file.write('content')
-    with open('data.json','r') as readFile:
-        data=json.load(readFile)
-    #work on adding data to the json file
-    
+i=0
+for articel in articels:
+    try:
+        driver.get(articel)
+        time.sleep(5)
+        content=driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div[4]/main/div/div/div/div/article/div/div[3]/div[1]/div[1]').text
+        authors=driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div[4]/main/div/div/div/div/article/div/div[3]/div[2]/div[1]')
+        authors=authors.find_elements(By.CLASS_NAME,'field__item')
+        #publish_date=driver.find_element(By.XPATH,'/html/body/div[1]/div/div[1]/div[4]/main/div/div/div/div/article/div/div[3]/div[1]/div[1]/p[12]/em').text
+        authors_data=list()
+        for author in authors:
+            authors_data.append(author.text)
+        authors_data=list(set(authors_data))
+        name=articel[len(articel)-articel[::-1].index('/'):]
+        with open(f'scraper\content scraper\content\{i}.txt','w') as file:
+            file.write(content)
+        with open('scraper\content scraper\data.json','r') as readFile:
+            data=json.load(readFile)
+        data['data'].append(
+            {
+                "name":name,
+                "authors":authors_data
+
+            }
+        )
+        with open('scraper\content scraper\data.json','w+') as outFile:
+            json.dump(data,outFile)
+        i+=1
+    except Exception as e:
+        pass
 
 
