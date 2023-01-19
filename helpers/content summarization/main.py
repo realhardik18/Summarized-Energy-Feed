@@ -1,26 +1,40 @@
 import requests
-from creds import ApiKey,ApiHost,ApiUrl
-import os 
+from creds import ApiHost,ApiKey,ApiUrl
+import time
 
-def Summarize(content):
+def summarizeContent(url):
     payload = {
-        "text": content,
-        "num_sentences": 10
+        "url": url,
+        "min_length": 250,
+        "max_length": 300,
+        "is_detailed": False
     }
     headers = {
         "content-type": "application/json",
-        "Key": ApiKey,
-        "Host": ApiHost
+        "X-RapidAPI-Key": ApiKey,
+        "X-RapidAPI-Host": ApiHost
     }
 
     response = requests.request("POST", ApiUrl, json=payload, headers=headers)
-
     return response.text
 
-for file in os.listdir('helpers\content scraper\content'):
-    with open(fr'helpers\content scraper\content\{file}') as contentFile:
-        summarizedContent=Summarize(contentFile.read())
-    #with open('helpers\content summarization\summarizedContent')
-    #work form here
-    #make summazrized content files and then website part
-    #gn
+with open('helpers\crawler\links.txt','r') as file:
+    links=file.readlines()
+
+links=[link.strip('\n') for link in links]
+
+i=0
+for link in links:
+    try:
+        SummarizedText=summarizeContent(link)
+        if '"messages":"The API is unreachable, please contact the API provider", "info": "Your Client (working) ---> Gateway (working) ---> API (not working)' not in SummarizedText:
+            with open(fr'helpers\content summarization\summarizedContent\{i}.json','w') as outFile:
+                outFile.write(SummarizedText)
+            print(f'summarized doc {i} || {time.ctime()}')
+            i+=1
+            time.sleep(100)
+        else:
+            print(f'failed || {time.ctime()}')
+    except Exception as e:
+        print(f'failed || {time.ctime()}')
+
